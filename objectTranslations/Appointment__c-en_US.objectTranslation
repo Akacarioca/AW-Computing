@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Appointment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Appointments</value>
+    </caseValues>
+    <fields>
+        <help><!-- Please enter the correct Date and Time of this Appointment. --></help>
+        <label><!-- Date &amp; Time --></label>
+        <name>Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doctor --></label>
+        <name>Doctor__c</name>
+        <relationshipLabel><!-- DoctorsAppointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>Patient__c</name>
+        <relationshipLabel><!-- PatientAppointments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please chose one the available rooms. --></help>
+        <label><!-- Room Number --></label>
+        <name>Room_Number__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

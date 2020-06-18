@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Fax2</value>
+        </caseValues>
+        <name>fax_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- FullName --></label>
+        <name>FullName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to track the position of the contact. --></help>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchasing</masterLabel>
+            <translation><!-- Purchasing --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

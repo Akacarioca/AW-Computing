@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Category --></label>
+        <name>adapps__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Type --></label>
+        <name>adapps__Feature_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effort --></label>
+        <name>adapps__Implementation_Effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optimizer Report --></label>
+        <name>adapps__Optimizer_Report__c</name>
+        <relationshipLabel><!-- Unsupported Browsers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Org Item Count --></label>
+        <name>adapps__Org_Item_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>adapps__Status__c</name>
+    </fields>
+</CustomObjectTranslation>

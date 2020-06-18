@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Formula Fields Name --></label>
+        <name>adapps__Formula_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula Fields with JavaScript Code --></label>
+        <name>adapps__Formula_Fields__c</name>
+        <relationshipLabel><!-- Formula Fields Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

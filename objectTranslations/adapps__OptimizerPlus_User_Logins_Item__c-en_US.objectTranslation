@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Days --></label>
+        <name>adapps__Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>adapps__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Lately</masterLabel>
+            <translation><!-- Not Lately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rarely</masterLabel>
+            <translation><!-- Rarely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recently</masterLabel>
+            <translation><!-- Recently --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Login --></label>
+        <name>adapps__User_Login__c</name>
+        <relationshipLabel><!-- User Login Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>adapps__User_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

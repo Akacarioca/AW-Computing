@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Base amount for Opportunities. Used on Validation Rules and Process Builder.</description>
+    <fields>
+        <fullName>Large_Amount__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Large Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Opportunity Amount</label>
+    <pluralLabel>Opportunity Amounts</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

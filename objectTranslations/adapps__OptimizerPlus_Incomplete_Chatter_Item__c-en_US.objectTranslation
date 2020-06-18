@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- HasAboutMe --></label>
+        <name>adapps__HasAboutMe__c</name>
+    </fields>
+    <fields>
+        <label><!-- HasPhoto --></label>
+        <name>adapps__HasPhoto__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incomplete Chatter Profiles --></label>
+        <name>adapps__Incomplete_Chatter__c</name>
+        <relationshipLabel><!-- Incomplete Chatter Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>adapps__User__c</name>
+    </fields>
+</CustomObjectTranslation>

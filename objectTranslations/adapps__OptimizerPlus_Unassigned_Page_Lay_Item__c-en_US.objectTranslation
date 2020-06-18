@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Page Layout Name --></label>
+        <name>adapps__Page_Layout_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unassigned Page Layouts --></label>
+        <name>adapps__Unassigned_Page_Layouts__c</name>
+        <relationshipLabel><!-- Unassigned Page Layouts Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

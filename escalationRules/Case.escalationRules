@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <escalationRule>
+        <fullName>Standard Escalation</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHours>Standard - 24 hour</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Product Support</value>
+            </criteriaItems>
+            <escalationAction>
+                <assignedTo>Product_Support_Tier_2_Queue</assignedTo>
+                <assignedToType>Queue</assignedToType>
+                <minutesToEscalation>240</minutesToEscalation>
+                <notifyCaseOwner>true</notifyCaseOwner>
+                <notifyTo>nlarkin.egmyg5yzyxd2.52ukzcufkq0r.3mi5mbgef0nb.5ivz5nrzlvdc@aw81503.com</notifyTo>
+                <notifyToTemplate>sample_templates/SUPPORTCaseescalationnotificationSAMPLE</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+</EscalationRules>

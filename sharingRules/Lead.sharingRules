@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>EMEA_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>EMEA Sharing</label>
+        <sharedTo>
+            <role>USSalesDirector183142</role>
+        </sharedTo>
+        <sharedFrom>
+            <queue>EMEA_Sales_Team_Queue</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

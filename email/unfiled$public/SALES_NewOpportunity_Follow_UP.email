@@ -1,0 +1,11 @@
+*** NEW OPPORTUNITY NOTIFICATION ***  
+
+The following Opportunity has been created.  
+Opportunity:  {!Opportunity.Name}
+Account: {!Opportunity.Account}
+Contact Name:  {!Contact.Name} 
+Amount: {!Opportunity.Amount}
+Close Date: {!Opportunity.CloseDate}
+ 
+
+Click on the link to access the Opportunity:  {!Opportunity.Link}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>inquiry@awcomputing.com</email>
+    <name>Inquiry Queue</name>
+    <queueMembers>
+        <users>
+            <user>hervel.5leb1ez7qowf.cgzv0oibrdnc.njr5axkseutd.lw1mgfuopoyv@aw81503.com</user>
+            <user>nlarkin.egmyg5yzyxd2.52ukzcufkq0r.3mi5mbgef0nb.5ivz5nrzlvdc@aw81503.com</user>
+            <user>patrickc.bklokmgqpdcq.ulnmfkjkydhv.tgq9gsiwfqbd.h9po6iwza8fn@aw81503.com</user>
+            <user>seemak.f62l5ja1mill.q3rbfrdzzg6b.uea53d7jkdbv.grzksp9gz3ge@aw81503.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

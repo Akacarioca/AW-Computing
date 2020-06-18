@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>AllInternalUsers</sharedTo>
+        <sharedToType>Organization</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>awheeler.6vtmmfjxrfh2.gsvc7troarpc.9vnbcdujbf2u.7iifjzqb9yf2@aw81503.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <name>Company Dashboards</name>
+</DashboardFolder>

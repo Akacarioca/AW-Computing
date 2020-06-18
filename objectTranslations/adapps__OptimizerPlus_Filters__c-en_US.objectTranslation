@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Category_INCREASE_USER_ADOPTION --></label>
+        <name>adapps__Category_INCREASE_USER_ADOPTION__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category_MONITOR_LIMITS --></label>
+        <name>adapps__Category_MONITOR_LIMITS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category_OPTIMIZER_AND_SUMMARY --></label>
+        <name>adapps__Category_OPTIMIZER_AND_SUMMARY__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_CUSTOM_CODE --></label>
+        <name>adapps__FeatureType_CUSTOM_CODE__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_CUSTOM_LAYOUT_FOR_OBJECTS --></label>
+        <name>adapps__FeatureType_CUSTOM_LAYOUT_FOR_OBJECTS__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_FIELDS --></label>
+        <name>adapps__FeatureType_FIELDS__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_IMPROVE_USER_EXPERIENCE --></label>
+        <name>adapps__FeatureType_IMPROVE_USER_EXPERIENCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_INCREASE_USER_ADOPTION --></label>
+        <name>adapps__FeatureType_INCREASE_USER_ADOPTION__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_OBJECT_LIMITS --></label>
+        <name>adapps__FeatureType_OBJECT_LIMITS__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_ORG_LIMITS --></label>
+        <name>adapps__FeatureType_ORG_LIMITS__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_REPORT_AND_DASHBOARDS --></label>
+        <name>adapps__FeatureType_REPORT_AND_DASHBOARDS__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_USAGE --></label>
+        <name>adapps__FeatureType_USAGE__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_USER_MANAGEMENT --></label>
+        <name>adapps__FeatureType_USER_MANAGEMENT__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureType_WORKFLOW --></label>
+        <name>adapps__FeatureType_WORKFLOW__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImpEffort_1_2_HOURS --></label>
+        <name>adapps__ImpEffort_1_2_HOURS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImpEffort_2_HOURS --></label>
+        <name>adapps__ImpEffort_2_HOURS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImpEffort_30_60_MINUTES --></label>
+        <name>adapps__ImpEffort_30_60_MINUTES__c</name>
+    </fields>
+    <fields>
+        <label><!-- ImpEffort_30_MINUTES --></label>
+        <name>adapps__ImpEffort_30_MINUTES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact_HIGH_IMPACT --></label>
+        <name>adapps__Impact_HIGH_IMPACT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact_LOW_IMPACT --></label>
+        <name>adapps__Impact_LOW_IMPACT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact_MEDIUM_IMPACT --></label>
+        <name>adapps__Impact_MEDIUM_IMPACT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact_NOT_ENABLED --></label>
+        <name>adapps__Impact_NOT_ENABLED__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact_READY_IMPACT --></label>
+        <name>adapps__Impact_READY_IMPACT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact_UNABLE_TO_ANALYZE --></label>
+        <name>adapps__Impact_UNABLE_TO_ANALYZE__c</name>
+    </fields>
+</CustomObjectTranslation>

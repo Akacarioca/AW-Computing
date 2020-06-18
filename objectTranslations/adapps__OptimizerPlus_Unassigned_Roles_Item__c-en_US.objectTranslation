@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Role Name --></label>
+        <name>adapps__Role_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unassigned Roles --></label>
+        <name>adapps__Unassigned_Roles__c</name>
+        <relationshipLabel><!-- Unassigned Roles Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

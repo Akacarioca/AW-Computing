@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>B2B Sales Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>CampaignId</fieldNames>
+        <fieldNames>Region_Zone__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;Qualify the opportunity and confirm budget:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;What problems are they trying to solve?&lt;/p&gt;&lt;p&gt;How does solving these problems help them?&lt;/p&gt;&lt;p&gt;What is their budget?&lt;/p&gt;</info>
+        <picklistValueName>Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>B2B_Sales</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Category --></label>
+        <name>adapps__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Type --></label>
+        <name>adapps__Feature_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Effort --></label>
+        <name>adapps__Implementation_Effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limit --></label>
+        <name>adapps__Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optimizer Report --></label>
+        <name>adapps__Optimizer_Report__c</name>
+        <relationshipLabel><!-- Static Resource Limits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Usage --></label>
+        <name>adapps__Percent_Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>adapps__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit --></label>
+        <name>adapps__Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Used --></label>
+        <name>adapps__Used__c</name>
+    </fields>
+</CustomObjectTranslation>

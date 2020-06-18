@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- FlexiPage --></label>
+        <name>adapps__FlexiPage__c</name>
+    </fields>
+    <fields>
+        <label><!-- News And Twitter --></label>
+        <name>adapps__News_And_Twitter_Items__c</name>
+        <relationshipLabel><!-- News And Twitter Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

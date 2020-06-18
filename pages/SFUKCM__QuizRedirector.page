@@ -1,0 +1,35 @@
+<apex:page controller="SFUKCM.QuizRedirector_Ctrl" action="{!makeUrl}">
+    <html >
+        <head>
+            <script>
+            function openWindow() {
+                window.open("{!url}", "KCM");
+            }
+            openWindow();
+            </script>
+            <apex:slds />            
+        </head>
+        <body style="padding:0;margin:0">
+            <apex:pageMessages />
+            <div class="slds-scope">
+                <div class="slds-page-header" role="banner">
+                    <div class="slds-media">
+                        <div class="slds-media__figure">
+                            
+                        </div>
+                        <div class="slds-media__body">
+                            <p class="slds-page-header__title slds-truncate slds-align-middle" title="Knowledge Check Manager (KCM)">Knowledge Check Manager (KCM)</p>
+                            <p class="slds-text-body--small slds-page-header__info">Opens the Knowledge Check Manager (KCM)</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="content" style="margin:20px">
+                    <div style="padding-bottom:20px">
+	                    <b>Knowledge Check Manager</b> should have opened on a new tab.
+                    </div>
+                    <button class="slds-button slds-button--brand" onclick="openWindow()">Open KCM Again</button>
+                </div>
+            </div>
+        </body>
+    </html>  
+</apex:page>

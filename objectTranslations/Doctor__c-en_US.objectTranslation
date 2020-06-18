@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Doctor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Doctors</value>
+    </caseValues>
+    <fields>
+        <help><!-- Please chose the name of the Doctor. --></help>
+        <label><!-- Doctor&apos;s Name --></label>
+        <name>Doctor_s_Name__c</name>
+        <relationshipLabel><!-- Doctors --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please spell out the name of the school. --></help>
+        <label><!-- Name of School --></label>
+        <name>Name_of_School__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the proper specialization --></help>
+        <label><!-- Specializations --></label>
+        <name>Specializations__c</name>
+        <picklistValues>
+            <masterLabel>General Practice</masterLabel>
+            <translation><!-- General Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infant Care</masterLabel>
+            <translation><!-- Infant Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncologist</masterLabel>
+            <translation><!-- Oncologist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orthopedic</masterLabel>
+            <translation><!-- Orthopedic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgeon</masterLabel>
+            <translation><!-- Surgeon --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter the correct date as  MM/DD-YYYY. --></help>
+        <label><!-- Year of Graduation --></label>
+        <name>Year_of_Graduation__c</name>
+    </fields>
+    <sharingReasons>
+        <label><!-- Location --></label>
+        <name>Location</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

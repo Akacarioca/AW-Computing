@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Test Field Set --></label>
+        <name>Test_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Telefone</value>
+        </caseValues>
+        <name>phone_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Prospect Rating</value>
+        </caseValues>
+        <name>rating_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Does this customer have a current support plan?  Check this box when you sell a support plan to this customer. --></help>
+        <label><!-- Has Support Plan --></label>
+        <name>Has_Support_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- PO Box --></label>
+        <name>PO_Box__c</name>
+    </fields>
+    <fields>
+        <help><!-- In which region is the customer based? --></help>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose which level of support this account paid for on their contract. --></help>
+        <label><!-- Support Level --></label>
+        <name>Support_Level__c</name>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When is the current support plan due for renewal? --></help>
+        <label><!-- Support Plan Expiration Date --></label>
+        <name>Support_Plan_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- 18 digit id --></help>
+        <label><!-- 18 Digit Id --></label>
+        <name>X18_Digit_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- In which zone is this customer based? Depends      on region. --></help>
+        <label><!-- Zone --></label>
+        <name>Zone__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribbean</masterLabel>
+            <translation><!-- Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central America</masterLabel>
+            <translation><!-- Central America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Canada</masterLabel>
+            <translation><!-- Central Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Asia</masterLabel>
+            <translation><!-- East Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Coast</masterLabel>
+            <translation><!-- East Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East</masterLabel>
+            <translation><!-- Middle East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest US</masterLabel>
+            <translation><!-- Midwest US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountains and the West</masterLabel>
+            <translation><!-- Mountains and the West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast US</masterLabel>
+            <translation><!-- Northeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Canada</masterLabel>
+            <translation><!-- Northern Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast Asia</masterLabel>
+            <translation><!-- Southeast Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast US</masterLabel>
+            <translation><!-- Southeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest US</masterLabel>
+            <translation><!-- Southwest US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Prairies</masterLabel>
+            <translation><!-- The Prairies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK + Ireland</masterLabel>
+            <translation><!-- UK + Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West US</masterLabel>
+            <translation><!-- West US --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- For customers and prospects. --></description>
+        <label><!-- Customer Account --></label>
+        <name>Customer_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For consulting partners. --></description>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Only enter Support Plan Expiration Date if Has Support Plan is checked🖐 --></errorMessage>
+        <name>Has_Support_Plan_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Check PO Box --></errorMessage>
+        <name>PO_Box</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter an expiration date when an account has a support plan.‼ --></errorMessage>
+        <name>Support_plan_expiration_date_required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conta_Nova --></label>
+        <name>Conta_Nova</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

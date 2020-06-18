@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Path --></label>
+        <name>adapps__Lightning_SalesConsole__c</name>
+        <relationshipLabel><!-- Lightning Sales Console Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Modification --></label>
+        <name>adapps__Modification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>adapps__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>adapps__Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url Profile --></label>
+        <name>adapps__Url_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url User --></label>
+        <name>adapps__Url_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>adapps__User__c</name>
+    </fields>
+</CustomObjectTranslation>

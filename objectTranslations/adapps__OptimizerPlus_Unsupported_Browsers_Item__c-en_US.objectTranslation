@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Application --></label>
+        <name>adapps__Application__c</name>
+    </fields>
+    <fields>
+        <label><!-- Browser --></label>
+        <name>adapps__Browser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last_Login --></label>
+        <name>adapps__Last_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Platform --></label>
+        <name>adapps__Platform__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unsupported Browsers --></label>
+        <name>adapps__Unsupported_Browsers__c</name>
+        <relationshipLabel><!-- Unsupported Browsers Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>adapps__User_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

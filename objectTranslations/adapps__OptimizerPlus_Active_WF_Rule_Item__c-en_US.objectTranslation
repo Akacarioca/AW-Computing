@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active Workflow Rule --></label>
+        <name>adapps__Active_Workflow_Rule__c</name>
+        <relationshipLabel><!-- Active Workflow Rule Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Count --></label>
+        <name>adapps__Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>adapps__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>adapps__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

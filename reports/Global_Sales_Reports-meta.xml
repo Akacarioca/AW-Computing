@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>awheeler.6vtmmfjxrfh2.gsvc7troarpc.9vnbcdujbf2u.7iifjzqb9yf2@aw81503.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>admin@aw81503.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>jwiseman.dcefckgznzvv.1gvvmizl8yvi.e9wfws3hvoei.djecbt0gj0mj@aw81503.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>VPofGlobalSalesSalesOps</sharedTo>
+        <sharedToType>RoleAndSubordinates</sharedToType>
+    </folderShares>
+    <name>Global Sales Reports</name>
+</ReportFolder>

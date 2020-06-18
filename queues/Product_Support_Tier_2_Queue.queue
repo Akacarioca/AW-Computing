@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>productsupport2@awcomputing.com</email>
+    <name>Product Support Tier 2 Queue</name>
+    <queueMembers>
+        <users>
+            <user>evelynk.pjcm2f7ujyzs.1y5y8kp8ulkm.iy0eyx8pt2dv.kuqcel4srube@aw81503.com</user>
+            <user>nlarkin.egmyg5yzyxd2.52ukzcufkq0r.3mi5mbgef0nb.5ivz5nrzlvdc@aw81503.com</user>
+            <user>thowe.5kfhqb4e3pxg.odkixqlcwwip.tywsujpi3qqq.jmmletj2pkfb@aw81503.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

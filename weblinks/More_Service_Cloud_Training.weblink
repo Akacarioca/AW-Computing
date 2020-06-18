@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Link to online training course &quot;Administration Essentials for the Service Cloud&quot;</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>More Service Cloud Training</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>http://lms.cyberu.com/12/launch.aspx?hash=WUlRa1pjd0RRUDRNeXhCQ3pGT3c4SlorSGFibmJ2QW0yblhQbU5tYTZBbjNUY2Y5TnZUU0wwSEZWUmtHNWdrUERTTnJRSXo5aStQYjE1bERwQS9OQWxWNTJiS0VnNWZtU3IwdXkrUi8vK2FQUk1jY1M2dXFrYVVBTlMyR3U5SlZhSFEvUE5BKzNOYz0=</url>
+</CustomPageWebLink>

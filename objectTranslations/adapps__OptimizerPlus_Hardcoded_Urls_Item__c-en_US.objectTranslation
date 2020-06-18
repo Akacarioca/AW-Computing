@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Hard-Coded URLs --></label>
+        <name>adapps__Hardcoded_Urls__c</name>
+        <relationshipLabel><!-- Hardcoded Urls Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>adapps__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>adapps__Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>adapps__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

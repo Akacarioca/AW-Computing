@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_Won_Opportunities_with_Accounts_Receivable</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share Won Opportunities with Accounts Receivable</label>
+        <sharedTo>
+            <role>AccountsReceivable183142</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>IsWon</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Share_All_Opportunities_with_Global_Sales_Reps</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share All Opportunities with Global Sales Reps</label>
+        <sharedTo>
+            <group>Global_Sales_Reps</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Global_Sales_Reps</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_All_Opportunities_with_Marketing_Director</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share All Opportunities with Marketing Director</label>
+        <sharedTo>
+            <role>MarketingDirector183141</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>VPofGlobalSalesSalesOps</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Test</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Test</label>
+        <sharedTo>
+            <roleAndSubordinates>EMEASalesDirector183142</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>USSalesDirector183142</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

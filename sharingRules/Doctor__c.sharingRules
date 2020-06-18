@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_Visibility3</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share &amp; Visibility3</label>
+        <sharedTo>
+            <role>VPofGlobalSalesSalesOps</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Specializations__c</field>
+            <operation>equals</operation>
+            <value>Surgeon</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Ownership_Based</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Ownership Based</label>
+        <sharedTo>
+            <role>Sales_Engineer</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>Share_Visibility_Study</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

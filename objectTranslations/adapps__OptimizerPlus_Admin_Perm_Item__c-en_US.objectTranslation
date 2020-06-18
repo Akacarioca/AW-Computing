@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Admin Id --></label>
+        <name>adapps__Admin_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Name --></label>
+        <name>adapps__Admin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Username --></label>
+        <name>adapps__Admin_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Administrator Permissions --></label>
+        <name>adapps__Administrator_Permissions__c</name>
+        <relationshipLabel><!-- Administrator Permissions Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

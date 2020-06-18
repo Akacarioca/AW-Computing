@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Layout Name --></label>
+        <name>adapps__Layout_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes And Attachments Related List --></label>
+        <name>adapps__Notes_And_Attachments__c</name>
+        <relationshipLabel><!-- Notes And Attachments Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>adapps__Url__c</name>
+    </fields>
+</CustomObjectTranslation>
