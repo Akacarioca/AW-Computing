@@ -205,6 +205,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Discount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This shows if the bicycle has a discount or not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please check to make sure that the bicycle has a discount.</inlineHelpText>
+        <label>Discount</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>
