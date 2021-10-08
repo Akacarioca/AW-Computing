@@ -566,6 +566,7 @@
     </fields>
     <fields>
         <fullName>StageName</fullName>
+        <description>Different Stages of an Opportunity</description>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
